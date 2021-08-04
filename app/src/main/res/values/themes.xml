@@ -19,10 +19,6 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.Todoc.OverFlowButtonStyle">
-        <item name="android:src">@drawable/ic_baseline_filter_list_24</item>
-    </style>
-
     <style name="Theme.Todoc.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Todoc.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
