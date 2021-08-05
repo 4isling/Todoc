@@ -50,7 +50,7 @@
             android:lines="1"
             android:textStyle="bold"
             android:textSize="16sp"
-            tools:text="taskName" />
+            tools:text="@sample/tasks.json/data/taskName" />
 
         <TextView
             android:id="@+id/lbl_project_name"
@@ -60,6 +60,6 @@
             android:ellipsize="end"
             android:textSize="16sp"
             android:lines="1"
-            tools:text="projectName" />
+            tools:text="@sample/tasks.json/data/projectName" />
     </LinearLayout>
 </RelativeLayout>

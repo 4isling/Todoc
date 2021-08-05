@@ -1,32 +1,19 @@
 package com.example.todoc.ui;
 
-import android.app.DatePickerDialog;
 import android.content.res.ColorStateList;
-import android.os.Bundle;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.DatePicker;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatImageView;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.todoc.R;
-import com.example.todoc.databinding.ActivityMainBinding;
+import com.cleanup.todoc.R;
 import com.example.todoc.model.Project;
 import com.example.todoc.model.Task;
-import com.google.android.material.snackbar.Snackbar;
 
-import java.util.Calendar;
 import java.util.List;
 
 /**

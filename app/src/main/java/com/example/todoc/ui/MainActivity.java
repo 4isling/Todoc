@@ -18,11 +18,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.todoc.R;
+import com.cleanup.todoc.R;
 import com.example.todoc.model.Project;
 import com.example.todoc.model.Task;
-import com.example.todoc.ui.TasksAdapter;
-
 
 import java.util.ArrayList;
 import java.util.Collections;
